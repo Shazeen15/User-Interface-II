@@ -143,31 +143,104 @@ titles: font-family: 'Grandstander', cursive;
 body: font-family: 'Lato', sans-serif;
 */
 
+/* general styles */
+* {
+  box-sizing: border-box;
+  /*hey browser when I give an element a width, I only want it to be as big as I've told it to be, if I add padding or a border apply that within the width I've given the element. The element shouldn't grow*/
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /*you can never be bigger than your parent*/
+}
+
+html {
+  font-size: 62.5%;
+  /*the default browser font size is 16px - this makes it so that 1 rem = 10px - so it's easier math*/
+}
+
+/*general styles*/
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  color: #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Grandstander', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+section {
+  padding: 4% 0;
+}
+
 /* nav styles */
 /* header styles */
 header {
-  padding: 2%;
+  padding: 1.5%;
   background-color: #edcfa9;
 }
 
 h1 {
   margin: 1.5%;
+  font-size: 9rem;
+  color: #aa4a30;
 }
 
 nav {
   margin: 2%;
-}
-
-
-.container1 {
   display: flex;
 }
-.container1 img {
-  width: 20%;
+
+nav a{
+  padding: 1.3%;
+  background-color: #e89f71;
+  color: #fff;
+
+}
+.home-link{
+  background-color: #aa4a30;
+  color: #fff;
+}
+
+/* home section styles */
+#home {
+  background-color: #e89f71;
+  color: #aa4a30;
+}
+.header-img {
+  width: 50%;
+}
+.header-img img{
+  width: 95%;
   border-radius: 50%;
+  margin: 2%;
+}
+.container1{
+  display: flex;
 }
 
-.header-title {
-  display: flex;
-  flex-direction: column;
+.header-title{
+  width: 50%;
+  padding: 5%;
+}
+
+.header-title h2{
+  font-size: 4rem;
+  margin: 5%;
+}
+
+.header-title a{
+  background-color: #aa4a30;
+  color: #fff;
+  padding: 2%;
+  margin: 5%;
+}
+.header-title p{
+  margin: 5%;
 }
