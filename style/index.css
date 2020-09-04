@@ -244,3 +244,48 @@ nav a{
 .header-title p{
   margin: 5%;
 }
+
+/* image section styles */
+.gallery{
+  background-color: #edcfa9;
+}
+.images{
+  display: flex;
+}
+
+.img1{
+  width: 400px;
+  height: 400px;
+  background-image: url(/img/friendship-bracelets.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 2%;
+}
+
+.img2{
+  width: 400px;
+  height: 400px;
+  background-image: url(/img/coding-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 2%;
+}
+
+.img3{
+  width: 400px;
+  height: 400px;
+  background-image: url(/img/leslieDamien.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 2%;
+}
+
+.img4{
+  width: 400px;
+  height: 400px;
+  background-image: url(/img/theOffice.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 2%;
+}
+
