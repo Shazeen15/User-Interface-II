@@ -133,6 +133,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* 
 #edcfa9
 #e89f71
@@ -207,6 +208,7 @@ nav a {
   background-color: #e89f71;
   color: #fff;
 }
+
 .home-link {
   background-color: #aa4a30;
   color: #fff;
@@ -216,15 +218,19 @@ nav a {
 #home {
   background-color: #e89f71;
   color: #aa4a30;
+  text-align: center;
 }
+
 .header-img {
   width: 50%;
 }
+
 .header-img img {
   width: 95%;
   border-radius: 50%;
   margin: 2%;
 }
+
 .container1 {
   display: flex;
 }
@@ -245,6 +251,7 @@ nav a {
   padding: 2%;
   margin: 5%;
 }
+
 .header-title p {
   margin: 5%;
 }
@@ -272,20 +279,12 @@ nav a {
   justify-content: space-evenly;
 }
 
-.img1 {
-  width: 300px;
-  height: 300px;
-  background-image: url(/img/friendship-bracelets.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 2%;
-}
-
 .img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .img a {
   background-color: #ed6663;
   padding: 2%;
@@ -293,9 +292,18 @@ nav a {
   color: #fff;
 }
 
+.img1 {
+  width: 400px;
+  height: 400px;
+  background-image: url(/img/friendship-bracelets.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 2%;
+}
+
 .img2 {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-image: url(/img/coding-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -303,8 +311,8 @@ nav a {
 }
 
 .img3 {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-image: url(/img/leslieDamien.jpeg);
   background-position: center;
   background-repeat: no-repeat;
@@ -312,8 +320,8 @@ nav a {
 }
 
 .img4 {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-image: url(/img/theOffice.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -321,33 +329,35 @@ nav a {
 }
 
 .img5 {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-image: url(/img/veggies.jpg);
   background-position: center;
   background-repeat: no-repeat;
   margin: 2%;
 }
+
 .img6 {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-image: url(/img/books.jpg);
   background-position: center;
   background-repeat: no-repeat;
   margin: 2%;
 }
+
 .img7 {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-image: url(/img/cooking.jpg);
   background-position: center;
   background-repeat: no-repeat;
   margin: 2%;
 }
 
-.img9 {
-  width: 300px;
-  height: 300px;
+.img8 {
+  width: 400px;
+  height: 400px;
   background-image: url(/img/cat.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -362,6 +372,7 @@ footer {
   background-color: #e89f71;
   color: #fff;
 }
+
 footer h3 {
   font-size: 2rem;
   padding: 2%;
@@ -387,7 +398,7 @@ footer a {
     margin: 2%;
     display: flex;
   }
-  
+
   nav a {
     padding: 2%;
     background-color: #e89f71;
@@ -399,7 +410,167 @@ footer a {
     flex-direction: column;
     align-items: center;
   }
+
+  .img1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/friendship-bracelets.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/coding-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/leslieDamien.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img4 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/theOffice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img5 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/veggies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img6 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/books.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img7 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/cooking.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img8 {
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/cat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
 }
 
 @media (max-width: 500px) {
+  header{
+    text-align: center;
+  }
+  nav {
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav a {
+    width: 45%;
+    margin: 0 auto;
+    padding: 1.3%;
+    background-color: #e89f71;
+    color: #fff;
+  }
+
+  .img1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/friendship-bracelets.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/coding-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/leslieDamien.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img4 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/theOffice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img5 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/veggies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img6 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/books.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img7 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/cooking.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img8 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/cat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
 }
