@@ -386,6 +386,81 @@ footer a {
 
 /* responsive styles */
 
+@media (max-width: 1600px){
+  /* 16 inch mac pro */
+  .img1 {
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/friendship-bracelets.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img2 {
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/coding-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img3 {
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/leslieDamien.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img4 {
+    width: 250px;
+    height:  250px;
+    background-image: url(/img/theOffice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img5 {
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/veggies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img6 {
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/books.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img7 {
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/cooking.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  
+  .img8 {
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/cat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+}
+
 @media (max-width: 800px) {
   h1 {
     margin: 1.5%;
@@ -574,3 +649,4 @@ footer a {
     margin: 2%;
   }
 }
+
