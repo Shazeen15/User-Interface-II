@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 
+#206a5d
+#28df99
+#99f3bd
+#d2f6c5
+#f6f7d4
+
+titles: font-family: 'Grandstander', cursive;
+body: font-family: 'Lato', sans-serif;
+*/
+
+/* general styles */
+* {
+    box-sizing: border-box;
+    /*hey browser when I give an element a width, I only want it to be as big as I've told it to be, if I add padding or a border apply that within the width I've given the element. The element shouldn't grow*/
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /*you can never be bigger than your parent*/
+}
+
+html {
+    font-size: 62.5%;
+    /*the default browser font size is 16px - this makes it so that 1 rem = 10px - so it's easier math*/
+}
+
+/*general styles*/
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    color: #777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Grandstander", cursive;
+    color: #206a5d;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+section {
+    padding: 4% 0;
+}
+
+/* my styles */
+
+header {
+    text-align: center;
+    background-color: #d2f6c5;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #99f3bd;
+}
+
+.gallery div {
+    width: 400px;
+    height: 700px;
+    /* background-color: blueviolet; */
+}
+
+.img1 {
+    background-image: url("/projectImg/inlineBlock-project.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-image: url("/projectImg/flexbox\ project.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background-image: url("/projectImg/unit\ one\ sprint.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img a {
+    background-color: #206a5d;
+    color: #fff;
+    padding: 3%;
+    border-radius: 25px;
+}
+
+.img p{
+    background-color: #99f3bd;
+    width: 80%;
+    margin: 2% auto;
+    border-radius: 10px;
+}
+
+/* hr {
+    border-style: none;
+    border-top-style: dashed;
+    border-color: #000;
+    border-width: 1px;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+  } */
