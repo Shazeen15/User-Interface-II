@@ -201,6 +201,7 @@ header h1 {
     display: flex;
     justify-content: space-evenly;
     background-color: #99f3bd;
+    flex-wrap: wrap;
 }
 
 .gallery div {
